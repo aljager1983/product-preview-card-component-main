@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    /* background-color: hsl(228, 12%, 48%); */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    
+}
+
+div {
+    border: 1px solid black;
+}
+
+.preview {
+    display: grid;
+    width: 16.665vw;
+    height: 50vh;
+    margin-left: auto;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+img {
+    
+    width: 16.665vw;
+    height: 50vh;
+    /* height: 0%; */
+    
+    
+}
+
+.details {
+    /* background-color: rgba(38, 30, 153, 0.808); */
+    grid-column: 3/4;
+    grid-row: 2 / 4;
+    width: 16.665vw;
+    margin-right: auto;
+}
+
+.attribution {
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+h2 {
+    font-family: Montserrat;
+}
